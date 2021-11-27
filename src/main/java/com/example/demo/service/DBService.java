@@ -18,11 +18,12 @@ public class DBService {
 
 		// instanciando categoria
 
-		Usuario cat1 = new Usuario(null, "giovanni",37,"teste","teste","teste","teste","teste","teste");
-		Usuario cat2 = new Usuario(null, "giovanni",37,"teste","teste","teste","teste","teste","teste");
-		Usuario cat3 = new Usuario(null, "giovanni",37,"teste","teste","teste","teste","teste","teste");
+		Usuario cat1 = new Usuario(null, "Giovanni","37","79006520","MS","Campo Grande","Gabriel Cubel","vila bandeirantes","123");
+		Usuario cat2 = new Usuario(null, "Carol","33","79084810","MS","mpo Grande","Cecilio Alves Correa","conj. Aero Rancho","123");
+		Usuario cat3 = new Usuario(null, "Joao","16","79084810","MS","mpo Grande","Cecilio Alves Correa","conj. Aero Rancho","123");
 
 		this.repo.saveAll(Arrays.asList(cat1, cat2, cat3));
 	}
 
 }
+
