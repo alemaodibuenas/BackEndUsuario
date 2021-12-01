@@ -1,6 +1,10 @@
 # BackEndUsuario
 
-Api Java contruida usando SpringToolSuite.
+ #Api Java contruida usando SpringToolSuite.
+ #Spring Tool Suite 4 
+
+ #Version: 4.12.0.RELEASE
+ #Build Id: 202109130635
 
  #GET: método utilizado para ler e recuperar dados. Requisita uma representação do recurso especificado e retorna essa representação.
   
